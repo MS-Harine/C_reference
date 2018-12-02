@@ -105,7 +105,7 @@ int var1 = 3;
 int var2 = 5;
 int *p = &var1;
 printf("%d", *p);	// 3
-*p = &var2;
+p = &var2;
 printf("%d", *p);	// 5
 ```
 
